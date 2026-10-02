@@ -1,0 +1,39 @@
+age_years:
+  display_name: "Patient Age"
+  rationale: "Advanced age reduces baseline nephron density and filtration reserve."
+egfr:
+  display_name: "Baseline eGFR"
+  rationale: "Reduced baseline filtration capacity blunts autoregulatory tolerance."
+baseline_creatinine:
+  display_name: "Baseline Serum Creatinine"
+  rationale: "Higher baseline creatinine marks chronic pre-existing renal damage."
+diabetes:
+  display_name: "Type 2 Diabetes Mellitus"
+  rationale: "Microvascular damage sensitizes glomerular arterioles to perfusion drops."
+hypertension:
+  display_name: "Chronic Systemic Hypertension"
+  rationale: "Arteriolar sclerosis impairs dynamic myogenic autoregulation."
+on_acei_arb:
+  display_name: "ACE Inhibitor / ARB Exposure"
+  rationale: "Blocks angiotensin-mediated efferent vasoconstriction, lowering Pgc."
+nsaid_exposure:
+  display_name: "Recent NSAID Ingestion"
+  rationale: "Inhibits vasodilatory prostaglandins, triggering afferent constriction."
+map_mean_24h:
+  display_name: "24h Mean Arterial Pressure"
+  rationale: "Persistent systemic perfusion pressure driving renal blood flow."
+map_min_24h:
+  display_name: "Minimum Mean Arterial Pressure"
+  rationale: "Severe nadirs induce transient medullary ischemic injury."
+hypotension_burden_min:
+  display_name: "Cumulative Hypotension Exposure"
+  rationale: "Prolonged epochs below 65 mmHg exhaust renal autoregulation."
+hr_mean_24h:
+  display_name: "24h Mean Heart Rate"
+  rationale: "Tachycardia reflects systemic stress, systemic inflammation, or hypovolemia."
+hrv_rmssd_mean_24h:
+  display_name: "Heart Rate Variability (RMSSD)"
+  rationale: "Depressed HRV indicates sympathetic overdrive and vagal withdrawal."
+nocturnal_dip_pct:
+  display_name: "Nocturnal BP Dipping"
+  rationale: "Non-dipping (<10%) or reverse dipping reflects sustained vascular tension."

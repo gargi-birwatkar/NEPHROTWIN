@@ -1,0 +1,21 @@
+risk_thresholds:
+  green_max: 0.30
+  amber_max: 0.70
+
+variables:
+  map_mmhg:
+    unit: "mmHg"
+    plausible_min: 30.0
+    plausible_max: 200.0
+  hr_bpm:
+    unit: "bpm"
+    plausible_min: 30.0
+    plausible_max: 220.0
+  creatinine_mg_dl:
+    unit: "mg/dL"
+    plausible_min: 0.2
+    plausible_max: 20.0
+  hrv_rmssd_ms:
+    unit: "ms"
+    plausible_min: 2.0
+    plausible_max: 300.0

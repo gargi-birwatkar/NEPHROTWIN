@@ -1,0 +1,21 @@
+{
+  "model_version": "1.0.0",
+  "feature_schema_version": "v1.0",
+  "feature_names": [
+    "age_years",
+    "egfr",
+    "baseline_creatinine",
+    "diabetes",
+    "hypertension",
+    "on_acei_arb",
+    "nsaid_exposure",
+    "map_mean_24h",
+    "map_min_24h",
+    "hypotension_burden_min",
+    "hr_mean_24h",
+    "hrv_rmssd_mean_24h",
+    "nocturnal_dip_pct"
+  ],
+  "trained_on": "Synthetic-CKD-Cohort-v1",
+  "is_stub": false
+}

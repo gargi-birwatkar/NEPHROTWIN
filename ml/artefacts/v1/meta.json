@@ -1,5 +1,5 @@
 {
-  "model_version": "1.0.0",
+  "model_version": "1.1.0",
   "feature_schema_version": "v1.0",
   "feature_names": [
     "age_years",
@@ -16,6 +16,6 @@
     "hrv_rmssd_mean_24h",
     "nocturnal_dip_pct"
   ],
-  "trained_on": "Synthetic-CKD-Cohort-v1",
+  "trained_on": "VitalDB (Real Human Telemetry) + Apollo Hospitals India (UCI-CKD Static Priors)",
   "is_stub": false
 }

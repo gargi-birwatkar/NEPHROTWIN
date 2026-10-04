@@ -1,5 +1,5 @@
 {
-  "model_version": "1.1.0",
+  "model_version": "2.1.0",
   "feature_schema_version": "v1.0",
   "feature_names": [
     "age_years",

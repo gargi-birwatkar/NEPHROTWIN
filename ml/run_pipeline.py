@@ -108,7 +108,7 @@ def run():
     print("\n5. Packaging Calibrated MLForecaster...")
     explainer = CalibratedTreeExplainer(booster, val_preds, y_val, FEATURE_NAMES)
     meta = ForecasterMeta(
-        model_version="1.1.0",
+        model_version="2.1.0",
         feature_schema_version="v1.0",
         feature_names=FEATURE_NAMES,
         trained_on=dataset_description,
